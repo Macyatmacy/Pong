@@ -16,7 +16,7 @@ first_frame = env.reset()
 plt.imshow(first_frame)
 
 for i in range(1000):
-    a = random.sample(list(range(5)),1)[0]
+    a = random.sample(list(range(5)), 1)[0]
     next_frame, next_frames_reward, next_state_terminal, info = env.step(a)
     plt.imshow(next_frame)
     if next_state_terminal:
