@@ -1,0 +1,12 @@
+pytest
+black
+click
+pylint
+pytest-cov
+pygame
+ale-py
+autorom
+gym
+matplotlib
+tensorflow
+opencv-python
